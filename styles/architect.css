@@ -20,6 +20,11 @@
   cursor: pointer;
   border: 0;
 }
+.section-title {
+  font-size: 2.8 rem;
+  font-weight: 700;
+  color: #131313;
+}
 /* header styles */
 header {
   background: rgba(255, 144, 14, 0.1);
@@ -29,11 +34,6 @@ nav {
   display: flex;
   justify-content: space-between;
   align-items: center;
-}
-.nav-title {
-  font-size: 2.8 rem;
-  font-weight: 700;
-  color: #131313;
 }
 nav > ul {
   display: flex;
@@ -114,6 +114,7 @@ main {
     padding-left: 20px;
     padding-right: 20px;
 }
+}
 
 /* tablet or medium devices */
 @media screen and (min-width: 576px) and (max-width: 960px) {
@@ -124,4 +125,3 @@ main {
     flex-direction: column;
   }
 }
-
